@@ -1,4 +1,26 @@
+:root {
+  --primary: #3a243f;
+  --secondary: red;
+}
+
 .davi-btn-primary {
-  background-color: rebeccapurple;
+  background-color: var(--primary);
   color: #fff !important;
+  font-family: "Helvetica Neue";
+}
+
+.davi-hero {
+  background-image: url(../img/ship.jpg);
+  background-color: var(--primary);
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: 100% 50%;
+  height: calc(100vh - 56px);
+}
+
+@media (min-width: 576px) {
+  .davi-hero {
+    height: 60vh;
+    min-height: 300px;
+  }
 }
