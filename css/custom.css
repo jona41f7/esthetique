@@ -1,6 +1,38 @@
 :root {
-  --primary: #3a243f;
+  --primary: #acacac;
   --secondary: red;
+
+  /* --bg-color: red;
+  --link-color: green;
+  --link-hover-color: blue;
+  --color-4: hotpink;
+  --color-5: rebeccapurple;
+
+  --primary-font: "montserrat", sans-serif;
+  --secondary-font: "Droid Serif", serif;
+  --main-text-color: #000;
+
+  --white-space: 1rem;
+
+  --bg-color: rgb(83, 44, 44);
+  --link-color: #000;
+  --link-hover-color: #000;
+  --color-4: #000;
+  --color-5: #000;
+
+  --primary-font: sans-serif;
+  --secondary-font: serif;
+  --main-text-color: #000;
+
+  --white-space: 2rem; */
+}
+
+body {
+  scroll-behaviour: smooth;
+}
+
+.navbar-jotto {
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .davi-btn-primary {
@@ -10,17 +42,74 @@
 }
 
 .davi-hero {
-  background-image: url(../img/ship.jpg);
+  background-image: url(../img/test-bg.png);
   background-color: var(--primary);
   background-size: cover;
-  background-blend-mode: overlay;
-  background-position: 100% 50%;
+  /* background-blend-mode: overlay; */
+  /* background-position: 100% 50%; */
   height: calc(100vh - 56px);
+}
+#test1 {
+  /* background-color: rgba(255, 255, 255, 0.39); */
+  background-size: cover;
+  background-position: 50% 100%;
+  background-attachment: fixed;
+  height: 50vh;
+  background-image: url(../img/tandpasta-enkel.3.design.png);
+}
+
+.produkter img {
+  height: 60vh;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+.h1-jotto {
+  font-size: 3.75rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.h2-jotto {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.h3-jotto {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.875rem;
+  font-weight: 400;
+}
+p.tekst-jotto {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.5;
+  max-width: 960px;
+}
+
+.img1 {
+  margin-top: -13vw;
+}
+
+.img2 {
+  margin-top: -3vw;
+}
+
+.img3 {
+  margin-top: -3vw;
+}
+
+.img4 {
+  margin-top: -4.5vw;
 }
 
 @media (min-width: 576px) {
   .davi-hero {
-    height: 60vh;
+    height: 85vh;
     min-height: 300px;
   }
 }

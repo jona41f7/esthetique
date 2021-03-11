@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Esthétique - forside</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/custom.css?v=1.0.0" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -14,13 +24,12 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/custom.css?v=1.0.0" />
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-jotto">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand text-uppercase" href="#">Esthétique</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -34,14 +43,41 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Produkter
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="dropdown-item" href="#eucalyptus">Eucalyptus</a>
+                </li>
+                <li><a class="dropdown-item" href="#ginger">Ginger</a></li>
+                <li><a class="dropdown-item" href="#vanilla">Vanilla</a></li>
+                <li>
+                  <a class="dropdown-item" href="#matchamint">Matcha & Mint</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#lemonverb">Lemon Verbena</a>
+                </li>
+                <li><a class="dropdown-item" href="#salmiak">Salmiak</a></li>
+              </ul>
+            </li>
+
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Om</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link davi-btn-primary rounded" href="#">Pricing</a>
+              <a class="nav-link" href="#instagram">#ESTHÉTIQUE</a>
             </li>
           </ul>
         </div>
@@ -58,57 +94,270 @@
               assumenda repellat quasi ullam aliquid et, minima inventore
               architecto!
             </p>
-            <a href="#0" class="btn davi-btn-primary rounded">CTA</a>
           </div>
         </div>
       </div>
     </header>
 
-    <section class="py-5">
-      <div class="container">
-        <div class="row row-cols-1 row-cols-md-4 g-4">
-          <div class="col">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-              </div>
+    <section>
+      <section id="test1" class="row">
+        <div class="col" style="transform: translate(0px, 0px); opacity: 1">
+          <div class="row" style="transform: translate(0px, 0px); opacity: 1">
+            <div
+              class="citat col-10 col-md-6 col-lg-6 mb-6 col-xl-5 mb-xl-0"
+              style="
+                transform: translate3d(0px, 62.0973px, 0px);
+                opacity: 0.379;
+              "
+            >
+              <h2 class="h2-jotto">
+                "bla bla <br />
+                bla bla bla”
+              </h2>
             </div>
           </div>
-          <div class="col">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a short card.</p>
-              </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="" class="row mb-5 mt-5 p-5 p-sm5 p-md-5 p-lg-5 produkter">
+      <div class="container-fluid row">
+        <div
+          class="col-12 col-md-6 col-lg-6 d-flex justify-content-center left left-1"
+          style="transform: translate(0px, 0px)"
+        >
+          <img src="img/tandpasta-enkel.3..png" alt="can" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <h2 class="h2-jotto">Hvorfor gå på kompromis med smag og design?</h2>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="eucalyptus"
+      class="row mb-5 mt-5 p-5 p-sm5 p-md-5 p-lg-5 produkter"
+    >
+      <div class="container-fluid row flex-row-reverse p-2 p-sm-4 p-md-1">
+        <div
+          class="col-12 col-md-6 col-lg-6 d-flex justify-content-center left left-2"
+        >
+          <img src="img/tandpasta-enkel.3.3.png" alt="can3" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <h2 class="mb-2 mt-5 h2-jotto">Eucalyptus</h2>
+          <p class="tekst-jotto">
+            Aromatiseret tandpasta med eucalyptussmag til effektivt at rengøre
+            tænder og tandkød. Smagen af frisk eucalyptus får munden til at
+            føles ren og frisk.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="ginger"
+      class="row mb-5 mt-5 p-5 p-sm5 p-md-5 p-lg-5 produkter"
+    >
+      <div class="container-fluid row p-2 p-sm-4 p-md-1">
+        <div
+          class="col-12 col-md-6 col-lg-6 d-flex justify-content-center right-2"
+        >
+          <img src="img/tandpasta-enkel.3.2.png" alt="can2" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 pl-5">
+          <h2 class="mb-2 mt-5 h2-jotto">Ginger</h2>
+          <p class="tekst-jotto">
+            Aromatiseret tandpasta med ingefærsmag til effektivt at rengøre
+            tænder og tandkød. Smagsløgene bliver sat på et sanseligt eventyr og
+            efterlader munden frisk og totalt renset.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <section id="test1" class="row">
+        <div class="col" style="transform: translate(0px, 0px); opacity: 1">
+          <div class="row" style="transform: translate(0px, 0px); opacity: 1">
+            <div
+              class="citat col-10 col-md-6 col-lg-6 mb-6 col-xl-5 mb-xl-0"
+              style="
+                transform: translate3d(0px, 62.0973px, 0px);
+                opacity: 0.379;
+              "
+            >
+              <h2 class="h2-jotto">
+                "bla bla <br />
+                bla bla bla”
+              </h2>
             </div>
           </div>
-          <div class="col">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content.
-                </p>
-              </div>
+        </div>
+      </section>
+    </section>
+
+    <section
+      id="vanilla"
+      class="row mb-5 mt-5 p-5 p-sm5 p-md-5 p-lg-5 produkter"
+    >
+      <div class="container-fluid row flex-row-reverse p-2 p-sm-4 p-md-1">
+        <div
+          class="col-12 col-md-6 col-lg-6 d-flex justify-content-center left left-2"
+        >
+          <img src="img/tandpasta-enkel.3.3.png" alt="can3" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <h2 class="mb-2 mt-5 h2-jotto">Vanilla</h2>
+          <p class="tekst-jotto">
+            Aromatiseret tandpasta med vaniljesmag til effektivt at rengøre
+            tænder og tandkød. Smagen af en rolig og blød vanilje får munden til
+            at føles ren og velbalanceret.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="matchamint"
+      class="row mb-5 mt-5 p-5 p-sm5 p-md-5 p-lg-5 produkter"
+    >
+      <div class="container-fluid row p-2 p-sm-4 p-md-1">
+        <div
+          class="col-12 col-md-6 col-lg-6 d-flex justify-content-center right-2"
+        >
+          <img src="img/tandpasta-enkel.3.2.png" alt="can2" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 pl-5">
+          <h2 class="mb-2 mt-5 h2-jotto">Matcha & Mint</h2>
+          <p class="tekst-jotto">
+            Aromatiseret tandpasta med smag af matcha og mint, til effektivt at
+            rengøre tænder og tandkød. Kombination af den friske mint og den let
+            bitre matcha, får munden til at føles renset og efterlader dig med
+            en klar ånde.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <section id="test1" class="row">
+        <div class="col" style="transform: translate(0px, 0px); opacity: 1">
+          <div class="row" style="transform: translate(0px, 0px); opacity: 1">
+            <div
+              class="citat col-10 col-md-6 col-lg-6 mb-6 col-xl-5 mb-xl-0"
+              style="
+                transform: translate3d(0px, 62.0973px, 0px);
+                opacity: 0.379;
+              "
+            >
+              <h2 class="h2-jotto">
+                "bla bla <br />
+                bla bla bla”
+              </h2>
             </div>
           </div>
-          <div class="col">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-              </div>
-            </div>
+        </div>
+      </section>
+    </section>
+
+    <section
+      id="lemonverb"
+      class="row mb-5 mt-5 p-5 p-sm5 p-md-5 p-lg-5 produkter"
+    >
+      <div class="container-fluid row flex-row-reverse p-2 p-sm-4 p-md-1">
+        <div
+          class="col-12 col-md-6 col-lg-6 d-flex justify-content-center left left-2"
+        >
+          <img src="img/tandpasta-enkel.3.3.png" alt="can3" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <h2 class="mb-2 mt-5 h2-jotto">Lemon Verbena</h2>
+          <p class="tekst-jotto">
+            Aromatiseret tandpasta med Lemon Verbena-smag til effektivt at
+            rengøre tænder og tandkød. Smagen af en forfriskende citrus får
+            munden til at føles ren og efterlader dig med god ånde.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="salmiak"
+      class="row mb-5 mt-5 p-5 p-sm5 p-md-5 p-lg-5 produkter"
+    >
+      <div class="container-fluid row p-2 p-sm-4 p-md-1">
+        <div
+          class="col-12 col-md-6 col-lg-6 d-flex justify-content-center right-2"
+        >
+          <img src="img/tandpasta-enkel.3.2.png" alt="can2" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 pl-5">
+          <h2 class="mb-2 mt-5 h2-jotto">Salmiak</h2>
+          <p class="tekst-jotto">
+            Aromatiseret tandpasta med Salmiaksmag til effektivt at rengøre
+            tænder og tandkød. Den stærke, let saltede smag af lakrids får
+            munden til at føles ren og frisk.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="instagram" class="row pt-4 pt-lg-5">
+      <div
+        class="tag_txt mb-5 mb-md-0 col-md-6 d-flex flex-wrap align-content-center justify-content-center"
+      >
+        <h2 class="text-uppercase h2-jotto">#esthétique</h2>
+        <p class="tekst-jotto">Husk at tagge os og del din sjove oplevelse!</p>
+      </div>
+
+      <div class="tag_img col-md-6 row p-5">
+        <div class="row d-flex justify-content-end">
+          <div class="col-6">
+            <img
+              class="img1 img-fluid"
+              src="img/tandpasta-alle..new-position-2.png"
+              alt="Instagram billede"
+            />
+          </div>
+          <div class="col-4">
+            <img
+              class="img2 img-fluid"
+              src="img/tandpasta-enkel.3..png"
+              alt="Instagram billede"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <img
+              class="img3 img-fluid"
+              src="img/tandpasta-enkel.3.2.png"
+              alt="Instagram billede"
+            />
+          </div>
+          <div class="col-6">
+            <img
+              class="img4 img-fluid"
+              src="img/tandpasta-enkel.3.3.png"
+              alt="Instagram billede"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <img
+              class="img5 img-fluid"
+              src="img/tandpasta-enkel.3.4.png"
+              alt="Instagram billede"
+            />
+          </div>
+          <div class="col-6" data-speed="3">
+            <img
+              class="img6 img-fluid"
+              src="img/tandpasta-enkel.3.design.png"
+              alt="Instgram billede"
+            />
           </div>
         </div>
       </div>
