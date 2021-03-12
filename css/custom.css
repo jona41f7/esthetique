@@ -39,6 +39,10 @@ body {
 .navbar-jotto {
   font-family: "Montserrat", sans-serif !important;
 }
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
 
 .davi-btn-primary {
   background-color: var(--primary);
@@ -65,12 +69,40 @@ body {
   right: 50%;
 }
 
+#eucalyptus {
+  width: 100%;
+}
+#ginger {
+  width: 100%;
+}
+#vanilla {
+  width: 100%;
+}
+#matchamint {
+  width: 100%;
+}
+#lemonverb {
+  width: 100%;
+}
+#salmiak {
+  width: 100%;
+}
+
+#test0 {
+  width: 100%;
+}
+
+#instagram {
+  width: 100%;
+}
+
 #test1 {
   /* background-color: rgba(255, 255, 255, 0.39); */
   background-size: cover;
   background-position: 50% 100%;
   background-attachment: fixed;
   height: 50vh;
+  width: 100%;
   background-image: url(../img/tandpasta-enkel.3.design.png);
 }
 #test2 {
@@ -79,6 +111,7 @@ body {
   background-position: 50% 100%;
   background-attachment: fixed;
   height: 50vh;
+  width: 100%;
   background-image: url(../img/tandpasta-enkel.3.design.png);
 }
 #test3 {
@@ -87,6 +120,7 @@ body {
   background-position: 50% 100%;
   background-attachment: fixed;
   height: 50vh;
+  width: 100%;
   background-image: url(../img/tandpasta-enkel.3.design.png);
 }
 
