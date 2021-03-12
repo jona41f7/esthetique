@@ -31,7 +31,9 @@
 body {
   scroll-behaviour: smooth;
   background-color: #f4f1ed;
+  transition: background-color 1s ease;
 }
+
 .bg-primary-jotto {
   background-color: #f4f1ed !important;
 }
@@ -63,7 +65,7 @@ body {
 }
 
 .vertical {
-  border-right: 2px solid black;
+  border-right: 1px solid black;
   height: 50px;
   position: relative;
   right: 50%;
@@ -149,7 +151,6 @@ p.tekst-jotto {
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;
-  max-width: 960px;
 }
 
 /* .euc-sec {
@@ -199,7 +200,6 @@ p.tekst-jotto {
     font-size: 1.3rem;
     font-weight: 300;
     line-height: 1.5;
-    max-width: 960px;
   }
 
   .produkter img {
