@@ -59,10 +59,10 @@ body {
 }
 
 .vertical {
-  border-left: 2px solid black;
+  border-right: 2px solid black;
   height: 50px;
   position: relative;
-  left: 50%;
+  right: 50%;
 }
 
 #test1 {
