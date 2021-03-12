@@ -1,6 +1,7 @@
 :root {
   --primary: #acacac;
   --secondary: red;
+  background-color: #f4f1ed;
 
   /* --bg-color: red;
   --link-color: green;
@@ -29,6 +30,10 @@
 
 body {
   scroll-behaviour: smooth;
+  background-color: #f4f1ed;
+}
+.bg-primary-jotto {
+  background-color: #f4f1ed !important;
 }
 
 .navbar-jotto {
@@ -47,9 +52,36 @@ body {
   background-size: cover;
   /* background-blend-mode: overlay; */
   /* background-position: 100% 50%; */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: 50% 120%;
   height: calc(100vh - 56px);
 }
+
+.vertical {
+  border-left: 2px solid black;
+  height: 50px;
+  position: relative;
+  left: 50%;
+}
+
 #test1 {
+  /* background-color: rgba(255, 255, 255, 0.39); */
+  background-size: cover;
+  background-position: 50% 100%;
+  background-attachment: fixed;
+  height: 50vh;
+  background-image: url(../img/tandpasta-enkel.3.design.png);
+}
+#test2 {
+  /* background-color: rgba(255, 255, 255, 0.39); */
+  background-size: cover;
+  background-position: 50% 100%;
+  background-attachment: fixed;
+  height: 50vh;
+  background-image: url(../img/tandpasta-enkel.3.design.png);
+}
+#test3 {
   /* background-color: rgba(255, 255, 255, 0.39); */
   background-size: cover;
   background-position: 50% 100%;
@@ -59,12 +91,7 @@ body {
 }
 
 .produkter img {
-  height: 60vh;
-}
-
-img,
-svg {
-  vertical-align: middle;
+  width: 100%;
 }
 
 .h1-jotto {
@@ -75,7 +102,7 @@ svg {
 
 .h2-jotto {
   font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .h3-jotto {
@@ -85,11 +112,15 @@ svg {
 }
 p.tekst-jotto {
   font-family: "Roboto Slab", serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;
   max-width: 960px;
 }
+
+/* .euc-sec {
+  background-color: aqua;
+} */
 
 .img1 {
   margin-top: -13vw;
@@ -111,5 +142,33 @@ p.tekst-jotto {
   .davi-hero {
     height: 85vh;
     min-height: 300px;
+  }
+
+  .h1-jotto {
+    font-size: 3.75rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .h2-jotto {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .h3-jotto {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.875rem;
+    font-weight: 400;
+  }
+  p.tekst-jotto {
+    font-family: "Roboto Slab", serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.5;
+    max-width: 960px;
+  }
+
+  .produkter img {
+    height: 60vh;
   }
 }
