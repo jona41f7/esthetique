@@ -53,7 +53,7 @@ body {
 }
 
 .davi-hero {
-  background-image: url(../img/test-bg.png);
+  background-image: url(../img/bg1.png);
   background-color: var(--primary);
   background-size: cover;
   /* background-blend-mode: overlay; */
@@ -105,7 +105,7 @@ body {
   background-attachment: fixed;
   height: 50vh;
   width: 100%;
-  background-image: url(../img/bg);
+  background-image: url(../img/bg3.png);
 }
 #test2 {
   /* background-color: rgba(255, 255, 255, 0.39); */
@@ -124,10 +124,6 @@ body {
   height: 50vh;
   width: 100%;
   background-image: url(../img/tandpasta-enkel.3.design.png);
-}
-
-.produkter img {
-  width: 100%;
 }
 
 .h1-jotto {
@@ -200,9 +196,5 @@ p.tekst-jotto {
     font-size: 1.3rem;
     font-weight: 300;
     line-height: 1.5;
-  }
-
-  .produkter img {
-    height: 60vh;
   }
 }
