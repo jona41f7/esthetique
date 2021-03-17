@@ -41,6 +41,9 @@ body {
 .navbar-jotto {
   font-family: "Montserrat", sans-serif !important;
 }
+.bg-light-jotto {
+  background-color: #fff !important;
+}
 .row {
   margin-right: 0 !important;
   margin-left: 0 !important;
@@ -60,7 +63,7 @@ body {
   /* background-position: 100% 50%; */
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
-  background-position: 50% 120%;
+  background-position: 50% 80%;
   height: calc(100vh - 56px);
 }
 
@@ -171,8 +174,6 @@ p.tekst-jotto {
 
 @media (min-width: 576px) {
   .davi-hero {
-    height: 85vh;
-    min-height: 300px;
   }
 
   .h1-jotto {
