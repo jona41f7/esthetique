@@ -41,6 +41,7 @@ body {
 .navbar-jotto {
   font-family: "Montserrat", sans-serif !important;
 }
+
 .bg-light-jotto {
   background-color: #fff !important;
 }
@@ -93,39 +94,35 @@ body {
   width: 100%;
 }
 
-#test0 {
-  width: 100%;
-}
-
 #instagram {
   width: 100%;
 }
 
-#test1 {
+#parral1 {
   /* background-color: rgba(255, 255, 255, 0.39); */
   background-size: cover;
   background-position: 50% 100%;
   background-attachment: fixed;
-  height: 50vh;
+  height: 400px;
   width: 100%;
-  background-image: url(../img/bg1.png);
+  background-image: url(../img/bag2.png);
 }
 
-#test2 {
+#parral2 {
   /* background-color: rgba(255, 255, 255, 0.39); */
   background-size: cover;
   background-position: 50% 100%;
   background-attachment: fixed;
-  height: 50vh;
+  height: 400px;
   width: 100%;
   background-image: url(../img/tandpasta-enkel.3.design.png);
 }
-#test3 {
+#parral3 {
   /* background-color: rgba(255, 255, 255, 0.39); */
   background-size: cover;
   background-position: 50% 100%;
   background-attachment: fixed;
-  height: 50vh;
+  height: 400px;
   width: 100%;
   background-image: url(../img/tandpasta-enkel.3.design.png);
 }
@@ -143,8 +140,11 @@ body {
 }
 .h3-jotto {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.875rem;
+  font-size: 1rem;
   font-weight: 400;
+  line-height: 1.5;
+  font-style: italic;
+  color: black;
 }
 p.tekst-jotto {
   font-family: "Roboto Slab", serif;
@@ -152,10 +152,6 @@ p.tekst-jotto {
   font-weight: 300;
   line-height: 1.5;
 }
-
-/* .euc-sec {
-  background-color: aqua;
-} */
 
 .img1 {
   margin-top: -13vw;
@@ -175,29 +171,6 @@ p.tekst-jotto {
 
 .insta_collage {
   display: none;
-}
-
-.carousel-control-prev-icon-jotto,
-.carousel-control-next-icon-jotto {
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  border: 1px solid black;
-  background-image: none;
-}
-
-.carousel-control-next-icon-jotto:after {
-  content: ">";
-  font-size: 55px;
-  color: red;
-}
-
-.carousel-control-prev-icon-jotto:after {
-  content: "<";
-  font-size: 55px;
-  color: red;
 }
 
 footer {
@@ -226,8 +199,10 @@ footer {
   }
   .h3-jotto {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.875rem;
+    font-size: 1.5rem;
     font-weight: 400;
+    font-style: italic;
+    line-height: 2rem;
   }
   p.tekst-jotto {
     font-family: "Roboto Slab", serif;
