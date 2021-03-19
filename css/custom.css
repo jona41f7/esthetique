@@ -68,12 +68,14 @@ body {
   height: calc(100vh - 56px);
 }
 
-.vertical {
-  border-right: 1px solid black;
-  height: 50px;
+/* .linie {
+  border-right: 6px solid #f4f1ed;
+  height: 100px;
   position: relative;
   right: 50%;
-}
+  z-index: 2;
+  margin-top: -5%;
+} */
 
 #eucalyptus {
   width: 100%;
@@ -115,16 +117,15 @@ body {
   background-attachment: fixed;
   height: 400px;
   width: 100%;
-  background-image: url(../img/tandpasta-enkel.3.design.png);
+  background-image: url(../img/bag4.png);
 }
 #parral3 {
-  /* background-color: rgba(255, 255, 255, 0.39); */
   background-size: cover;
   background-position: 50% 100%;
   background-attachment: fixed;
   height: 400px;
   width: 100%;
-  background-image: url(../img/tandpasta-enkel.3.design.png);
+  background-image: url(../img/Bag5-mobil.png);
 }
 
 .h1-jotto {
@@ -209,6 +210,15 @@ footer {
     font-size: 1.3rem;
     font-weight: 300;
     line-height: 1.5;
+  }
+
+  #parral3 {
+    background-size: cover;
+    background-position: 50% 100%;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/bag5.png);
   }
 
   .insta_collage {
