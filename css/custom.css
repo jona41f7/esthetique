@@ -33,6 +33,7 @@ body {
   background-color: #f4f1ed;
   transition: background-color 1s ease;
 }
+
 img {
   width: 100%;
   height: auto;
@@ -155,11 +156,11 @@ img {
 #parral3 {
   background-size: 100%;
   background-position: 50% 100%;
-  background-attachment: fixed;
-  height: 400px;
   width: 100%;
   background-image: url(../img/design-parallax.gif);
   background-repeat: no-repeat;
+  background-color: #ffffff85;
+  background-blend-mode: color-burn;
 }
 
 .h1-jotto {
@@ -254,6 +255,18 @@ footer {
     width: 100%;
     background-image: url(../img/bag5.png);
     background-repeat: no-repeat;
+  }
+
+  #parral3 {
+    background-size: 100%;
+    background-position: 50% 100%;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/design-parallax.gif);
+    background-repeat: no-repeat;
+    background-color: none;
+    background-blend-mode: none;
   }
 
   .insta_collage {
