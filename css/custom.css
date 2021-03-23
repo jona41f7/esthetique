@@ -154,13 +154,14 @@ img {
 
 #parral3 {
   background-size: 100%;
-  background-position: 50% 50%;
+  background-position: 50% 100%;
   background-attachment: fixed;
   height: 400px;
   width: 100%;
-  background-image: url(../img/bag5.png);
+  background-image: url(../img/design-parallax.gif);
   background-repeat: no-repeat;
 }
+
 .h1-jotto {
   font-size: 3.75rem;
   font-weight: 700;
