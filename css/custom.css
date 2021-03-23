@@ -94,13 +94,11 @@ img {
 .ca3-scroll-down-link {
   cursor: pointer;
   height: 60px;
-  width: 80px;
-  margin: 0px 0 0 -40px;
+  width: 60px;
+  margin: 0px 0 0 -30px;
   position: absolute;
-  left: 50%;
   bottom: 60px;
   color: #fff;
-  font-size: 70px;
   -webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
   -moz-animation: ca3_fade_move_down 2s ease-in-out infinite;
   animation: ca3_fade_move_down 2s ease-in-out infinite;
@@ -246,6 +244,17 @@ img {
   font-style: italic;
   color: black;
 }
+
+.slim-h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  /* text-transform: uppercase; */
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
 p.tekst-jotto {
   font-family: "Roboto Slab", serif;
   font-size: 1rem;
