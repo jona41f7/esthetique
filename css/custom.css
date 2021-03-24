@@ -37,7 +37,6 @@ body {
 
 img {
   width: 100%;
-  height: auto;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -261,22 +260,6 @@ p.tekst-jotto {
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;
-}
-
-.img1 {
-  margin-top: -13vw;
-}
-
-.img2 {
-  margin-top: -3vw;
-}
-
-.img3 {
-  margin-top: -3vw;
-}
-
-.img4 {
-  margin-top: -4.5vw;
 }
 
 .insta_collage {
